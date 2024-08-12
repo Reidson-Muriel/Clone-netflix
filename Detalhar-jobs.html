@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steve Jobs</title>
+    <style>
+        body {
+            background-color: #191919;
+            margin: 0px;
+            padding: 0;
+        }
+
+        .menu {
+            background-color: #2F4F4F;
+            padding: 5px;
+            margin: -10px;
+        }
+
+        .menu ul {
+            padding: 5px;
+            list-style: none;
+        }
+
+        .pagina h1 {
+            color: black;
+            font-size: 72px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .pagina img {
+            width: 400px;
+            height: 500px;
+            margin: 10px;
+        }
+
+        .informacoes {
+            position: relative;
+            margin-left: 58vh;
+            bottom: 84vh;
+            color: white;
+        }
+
+        .informacoes ul {
+            list-style: none;
+            padding: 0;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+
+        .informacoes li {
+            font-family: sans-serif;
+            margin-left: 0;
+        }
+
+        .detalhe {
+            margin-left: 10%;
+            margin-right: 10%;
+            font-family: sans-serif;
+        }
+
+        details h2,
+        p {
+            color: white;
+        }
+
+        @media (max-width: 768px) {
+            .pagina img {
+                width: 80%;
+                height: auto;
+                margin: 20px auto;
+                display: block;
+            }
+
+            .informacoes {
+                margin-left: auto;
+                margin-right: auto;
+                bottom: auto;
+            }
+
+            .pagina h1 {
+                font-size: 48px;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .pagina h1 {
+                font-size: 36px;
+            }
+
+            .pagina img {
+                width: 100%;
+                margin: 10px auto;
+                display: block;
+            }
+
+            .informacoes li {
+                list-style: none;
+                bottom: auto;
+                margin-top: 1%;
+            }
+
+            footer {
+                background-color: #2F4F4F;
+                padding: 5px;
+                margin: -10px;
+                text-align: center;
+                font-size: medium;
+                font-family: sans-serif;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <nav class="menu">
+            <ul>
+                <li></li>
+            </ul>
+        </nav>
+        <section class="pagina">
+            <h1>Steve Jobs</h1>
+            <img src="img/jobs.jpg" alt="Steve Jobs">
+            <a href="https://www.youtube.com/watch?v=jhWKxtsYrJE">
+                <button style="background-color: black; cursor: pointer; color: white; margin: 10px; padding: 20px; border-radius: 10px; margin-left: 30%;">Ver o trailer</button>
+            </a>
+            <div class="informacoes">
+                <ul>
+                    <li>Direção: Danny Boyle</li>
+                    <li>Ano de produção: 2015</li>
+                    <li>Estreia: 9 de outubro de 2015 (Estados Unidos)</li>
+                    <li>Duração: 122 minutos</li>
+                    <li>Classificação: R - Algumas cenas de linguagem</li>
+                    <li>Gênero: Biografia, Drama</li>
+                    <li>Países de Origem: Estados Unidos da América</li>
+                </ul>
+                <summary class="detalhe">
+                    <h2 style="margin-left: 12%;">Detalhe do filme</h2>
+                    <p>
+                        "Steve Jobs" é um drama biográfico que explora a vida do cofundador da Apple, Steve Jobs. O filme se concentra em três lançamentos de produtos icônicos: o Macintosh em 1984, o NeXT Computer em 1988 e o iMac em 1998. Com Michael Fassbender no papel principal, o filme oferece uma visão íntima das complexidades da vida de Jobs e seu impacto na revolução digital.
+                    </p>
+                </summary>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>

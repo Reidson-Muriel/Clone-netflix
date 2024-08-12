@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harry Potter</title>
+    <style>
+        body {
+            background-color: #191919;
+            margin: 0px;
+            padding: 0;
+        }
+
+        .menu {
+            background-color: #2F4F4F;
+            padding: 5px;
+            margin: -10px;
+        }
+
+        .menu ul {
+            padding: 5px;
+            list-style: none;
+        }
+
+        .pagina h1 {
+            color: #929292;
+            font-size: 72px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .pagina img {
+            width: 400px;
+            height: 500px;
+            margin: 10px;
+        }
+
+        .informacoes {
+            position: relative;
+            margin-left: 58vh;
+            bottom: 84vh;
+            color: white;
+        }
+
+        .informacoes ul {
+            list-style: none;
+            padding: 0;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+
+        .informacoes li {
+            font-family: sans-serif;
+            margin-left: 0;
+        }
+
+        .detalhe {
+            margin-left: 10%;
+            margin-right: 10%;
+            font-family: sans-serif;
+        }
+
+        details h2,
+        p {
+            color: white;
+        }
+
+
+        @media (max-width: 768px) {
+
+            .pagina img {
+                width: 80%;
+                height: auto;
+                margin: 20px auto;
+                display: block;
+            }
+
+            .informacoes {
+                margin-left: auto;
+                margin-right: auto;
+                bottom: auto;
+            }
+
+            .pagina h1 {
+                font-size: 48px;
+            }
+        }
+
+        @media (max-width: 576px) {
+
+
+            .pagina h1 {
+                font-size: 36px;
+            }
+
+            .pagina img {
+                width: 100%;
+                margin: 10px auto;
+                display: block;
+            }
+
+            .informacoes li {
+                list-style: none;
+                bottom: auto;
+                margin-top: 1%;
+            }
+
+
+            footer {
+                background-color: #2F4F4F;
+                padding: 5px;
+                margin: -10px;
+                text-align: center;
+                font-size: medium;
+                font-family: sans-serif;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <nav class="menu">
+            <ul>
+                <li></li>
+            </ul>
+        </nav>
+        <section class="pagina">
+            <h1>Harry Potter e a Pedra Filosofal 1</h1>
+            <img src="img/harrypotter.jpg">
+            <a href="https://www.youtube.com/watch?v=9fIObnIGMlI">
+                <button style=" background-color: #929292; cursor: pointer; color: white; margin: 10px; padding: 20px; border-radius: 10px; margin-left: 30%;">Ver o trailer</button>
+            </a>
+            <div class="informacoes">
+                <ul>
+                    <li>Direção: Vários diretores (incluindo Chris Columbus, Alfonso Cuarón, Mike Newell e David Yates)</li>
+                    <li>Ano de produção: 2001-2011</li>
+                    <li>Estreia: 20 de novembro de 2001 (Harry Potter e a Pedra Filosofal)</li>
+                    <li>Duração: Aproximadamente 152 minutos por filme</li>
+                    <li>Classificação: PG - Aconselhável a supervisão dos pais</li>
+                    <li>Gênero: Aventura, Fantasia</li>
+                    <li>Países de Origem: Reino Unido, Estados Unidos</li>
+                </ul>
+                <summary class="detalhe">
+                    <h2 style="margin-left: 12%;">Detalhe da série</h2>
+                    <p>
+                        A série Harry Potter segue as aventuras de um jovem bruxo, Harry, e seus amigos Ron e Hermione enquanto eles enfrentam o maligno Lord Voldemort. Ao longo de oito filmes, eles descobrem a magia, enfrentam desafios e aprendem sobre amizade, coragem e o poder do amor.
+                    </p>
+                </summary>
+        </section>
+    </div>
+</body>
+
+</html>

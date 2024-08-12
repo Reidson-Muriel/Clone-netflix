@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O Espetacular Homem-Aranha</title>
+    <style>
+        body {
+            background-color: #191919;
+            margin: 0px;
+            padding: 0;
+        }
+
+        .menu {
+            background-color: #2F4F4F;
+            padding: 5px;
+            margin: -10px;
+        }
+
+        .menu ul {
+            padding: 5px;
+            list-style: none;
+        }
+
+        .pagina h1 {
+            color: red;
+            font-size: 72px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .pagina img {
+            width: 400px;
+            height: 500px;
+            margin: 10px;
+        }
+
+        .informacoes {
+            position: relative;
+            margin-left: 58vh;
+            bottom: 84vh;
+            color: white;
+        }
+
+        .informacoes ul {
+            list-style: none;
+            padding: 0;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+
+        .informacoes li {
+            font-family: sans-serif;
+            margin-left: 0;
+        }
+
+        .detalhe {
+            margin-left: 10%;
+            margin-right: 10%;
+            font-family: sans-serif;
+        }
+
+        details h2,
+        p {
+            color: white;
+        }
+
+
+        @media (max-width: 768px) {
+
+            .pagina img {
+                width: 80%;
+                height: auto;
+                margin: 20px auto;
+                display: block;
+            }
+
+            .informacoes {
+                margin-left: auto;
+                margin-right: auto;
+                bottom: auto;
+            }
+
+            .pagina h1 {
+                font-size: 48px;
+            }
+        }
+
+        @media (max-width: 576px) {
+
+
+            .pagina h1 {
+                font-size: 36px;
+            }
+
+            .pagina img {
+                width: 100%;
+                margin: 10px auto;
+                display: block;
+            }
+
+            .informacoes li {
+                list-style: none;
+                bottom: auto;
+                margin-top: 1%;
+            }
+
+
+            footer {
+                background-color: #2F4F4F;
+                padding: 5px;
+                margin: -10px;
+                text-align: center;
+                font-size: medium;
+                font-family: sans-serif;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <nav class="menu">
+            <ul>
+                <li></li>
+            </ul>
+        </nav>
+        <section class="pagina">
+            <h1>O Espetacular Homem-Aranha</h1>
+            <img src="img/aranha.jpg">
+            <a href="https://www.youtube.com/watch?v=7D3WopZ8USY">
+                <button style=" background-color: red; cursor: pointer; color: white; margin: 10px; padding: 20px; border-radius: 10px; margin-left: 30%;">Ver o trailer</button>
+            </a> 
+            <div class="informacoes">
+                <ul>
+                    <li>Direção: Marc Webb</li>
+                    <li>Ano de produção: 2012.</li>
+                    <li>Estreia:3 de julho de 2012 (Estados Unidos).</li>
+                    <li>Duração: 136 minutos.</li>
+                    <li>Classificação: PG-13 - Não recomendado para menores de 13 anos.</li>
+                    <li>Gênero: Ação, Aventura, Ficção científica</li>
+                    <li>Países de Origem: Estados Unidos da América.</li>
+                </ul>
+                <summary class="detalhe">
+                    <h2 style="margin-left: 12%;">Detalhe do filme</h2>
+                    <p>
+                        O Espetacular Homem-Aranha é a história de Peter Parker, um estudante que se torna um super-herói após ser mordido por uma aranha geneticamente modificada. Ele enfrenta o vilão Lagarto, enquanto tenta descobrir a verdade sobre o desaparecimento de seus pais.                    </p>
+                </summary>
+                    
+        </section>
+    </div>
+</body>
+
+</html>

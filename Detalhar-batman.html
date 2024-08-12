@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Batman</title>
+    <style>
+        body {
+            background-color: #191919;
+            margin: 0px;
+            padding: 0;
+        }
+
+        .menu {
+            background-color: #2F4F4F;
+            padding: 5px;
+            margin: -10px;
+        }
+
+        .menu ul {
+            padding: 5px;
+            list-style: none;
+        }
+
+        .pagina h1 {
+            color: red;
+            font-size: 72px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .pagina img {
+            width: 400px;
+            height: 500px;
+            margin: 10px;
+        }
+
+        .informacoes {
+            position: relative;
+            margin-left: 58vh;
+            bottom: 84vh;
+            color: white;
+        }
+
+        .informacoes ul {
+            list-style: none;
+            padding: 0;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+
+        .informacoes li {
+            font-family: sans-serif;
+            margin-left: 0;
+        }
+
+        .detalhe {
+            margin-left: 10%;
+            margin-right: 10%;
+            font-family: sans-serif;
+        }
+
+        details h2,
+        p {
+            color: white;
+        }
+
+        @media (max-width: 768px) {
+            .pagina img {
+                width: 80%;
+                height: auto;
+                margin: 20px auto;
+                display: block;
+            }
+
+            .informacoes {
+                margin-left: auto;
+                margin-right: auto;
+                bottom: auto;
+            }
+
+            .pagina h1 {
+                font-size: 48px;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .pagina h1 {
+                font-size: 36px;
+            }
+
+            .pagina img {
+                width: 100%;
+                margin: 10px auto;
+                display: block;
+            }
+
+            .informacoes li {
+                list-style: none;
+                bottom: auto;
+                margin-top: 1%;
+            }
+
+            footer {
+                background-color: #2F4F4F;
+                padding: 5px;
+                margin: -10px;
+                text-align: center;
+                font-size: medium;
+                font-family: sans-serif;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <nav class="menu">
+            <ul>
+                <li></li>
+            </ul>
+        </nav>
+        <section class="pagina">
+            <h1>The Batman</h1>
+            <img src="img/batman.jpg" alt="The Batman">
+            <a href="https://www.youtube.com/watch?v=rsQEor4y2hg">
+                <button style="background-color: red; cursor: pointer; color: white; margin: 10px; padding: 20px; border-radius: 10px; margin-left: 30%;">Ver o trailer</button>
+            </a>
+            <div class="informacoes">
+                <ul>
+                    <li>Direção: Matt Reeves</li>
+                    <li>Ano de produção: 2022</li>
+                    <li>Estreia: 4 de março de 2022 (Estados Unidos)</li>
+                    <li>Duração: 176 minutos</li>
+                    <li>Classificação: PG-13 - Não recomendado para menores de 13 anos</li>
+                    <li>Gênero: Ação, Aventura, Crime, Drama</li>
+                    <li>Países de Origem: Estados Unidos da América</li>
+                </ul>
+                <summary class="detalhe">
+                    <h2 style="margin-left: 12%;">Detalhe do filme</h2>
+                    <p>
+                        Em seu segundo ano lutando contra o crime, Batman investiga a corrupção em Gotham City enquanto persegue o assassino em série Charada. Durante a investigação, Batman descobre segredos sobre o passado de sua família. O filme explora temas de justiça, vingança e a importância da esperança em meio à escuridão.
+                    </p>
+                </summary>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>

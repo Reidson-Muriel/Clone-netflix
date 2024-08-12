@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos</title>
+    <style>
+        body {
+            background-color: #191919;
+            margin: 0px;
+            padding: 0;
+        }
+
+        .menu {
+            background-color: #2F4F4F;
+            padding: 5px;
+            margin: -10px;
+        }
+
+        .menu ul {
+            padding: 5px;
+            list-style: none;
+        }
+
+        .pagina h1 {
+            color: chocolate;
+            font-size: 72px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .pagina img {
+            width: 400px;
+            height: 500px;
+            margin: 10px;
+        }
+
+        .informacoes {
+            position: relative;
+            margin-left: 58vh;
+            bottom: 84vh;
+            color: white;
+        }
+
+        .informacoes ul {
+            list-style: none;
+            padding: 0;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+
+        .informacoes li {
+            font-family: sans-serif;
+            margin-left: 0;
+        }
+
+        .detalhe {
+            margin-left: 10%;
+            margin-right: 10%;
+            font-family: sans-serif;
+        }
+
+        details h2,
+        p {
+            color: white;
+        }
+
+        @media (max-width: 768px) {
+            .pagina img {
+                width: 80%;
+                height: auto;
+                margin: 20px auto;
+                display: block;
+            }
+
+            .informacoes {
+                margin-left: auto;
+                margin-right: auto;
+                bottom: auto;
+            }
+
+            .pagina h1 {
+                font-size: 48px;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .pagina h1 {
+                font-size: 36px;
+            }
+
+            .pagina img {
+                width: 100%;
+                margin: 10px auto;
+                display: block;
+            }
+
+            .informacoes li {
+                list-style: none;
+                bottom: auto;
+                margin-top: 1%;
+            }
+
+            footer {
+                background-color: #2F4F4F;
+                padding: 5px;
+                margin: -10px;
+                text-align: center;
+                font-size: medium;
+                font-family: sans-serif;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <nav class="menu">
+            <ul>
+                <li></li>
+            </ul>
+        </nav>
+        <section class="pagina">
+            <h1>Elementos</h1>
+            <img src="img/elemento.jpeg" alt="Elementos">
+            <a href="https://www.youtube.com/watch?v=BydjQP2aFd0">
+                <button style="background-color: chocolate; cursor: pointer; color: white; margin: 10px; padding: 20px; border-radius: 10px; margin-left: 30%;">Ver o trailer</button>
+            </a>
+            <div class="informacoes">
+                <ul>
+                    <li>Direção: Peter Sohn</li>
+                    <li>Ano de produção: 2023</li>
+                    <li>Estreia: 23 de junho de 2023 (Estados Unidos)</li>
+                    <li>Duração: 100 minutos</li>
+                    <li>Classificação: Livre</li>
+                    <li>Gênero: Animação, Aventura, Comédia</li>
+                    <li>Países de Origem: Estados Unidos da América</li>
+                </ul>
+                <summary class="detalhe">
+                    <h2 style="margin-left: 12%;">Detalhe do filme</h2>
+                    <p>
+                        "Elementos" se passa na Cidade Elemento, onde os habitantes do fogo, água, terra e ar vivem em harmonia. A história segue Faísca, uma jovem de fogo, que se vê desafiada a repensar suas crenças quando conhece Gota, um garoto de água. Juntos, eles exploram a importância da amizade e da aceitação das diferenças.
+                    </p>
+                </summary>
+            </div>
+        </section>
+        <footer>&copy; 2023 Elementos. Todos os direitos reservados.</footer>
+    </div>
+</body>
+
+</html>
